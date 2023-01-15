@@ -9,7 +9,6 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         int rows = createRows(scanner);
         int seats = createSeats(scanner);
 
@@ -22,7 +21,7 @@ class Main {
         int count = 0;
         int[][] array = new int[rows + 1][seats + 1];
         while (true) {
-            int result = Menu.createMenu(scanner);
+            int result = Menu.createMenuNumber(scanner);
             if (result == 1) {
                 if (count > 0) {
                     grid.createGrid2(array);

@@ -3,7 +3,7 @@ package cinema;
 import java.util.Scanner;
 
 public class Menu {
-    static int createMenu(Scanner scanner) {
+    static int createMenuNumber(Scanner scanner) {
         System.out.println("""
 
 
